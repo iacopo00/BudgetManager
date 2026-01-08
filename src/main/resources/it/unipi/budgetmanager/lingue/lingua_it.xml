@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<linguaggio>
+    <MENUNAVIGA>Naviga</MENUNAVIGA>
+    <MENUENTRATE>Entrate</MENUENTRATE>
+    <MENUUSCITE>Uscite</MENUUSCITE>
+    <ENTRATE>Entrate</ENTRATE>
+    <USCITE>Uscite</USCITE>
+    <BOTTONEINVIAG>Invia gara</BOTTONEINVIAG>
+    <BOTTONEINVIAS>Invia spesa</BOTTONEINVIAS>
+    <LABELENTRATE>Entrate</LABELENTRATE>
+    <LABELUSCITE>Uscite</LABELUSCITE>
+    <NGARA>Numero gara</NGARA>
+    <DATA>Data</DATA>
+    <CAMPIONATO>Campionato</CAMPIONATO>
+    <LUOGO>Comune (Provincia)</LUOGO>
+    <RIMBORSO>Rimborso</RIMBORSO>
+    <CAUSALE>Causale</CAUSALE>
+    <MESE>Mese</MESE>
+    <COSTO>Costo</COSTO>
+    <LINGUA>Lingua</LINGUA>
+    <GENNAIO>Gennaio</GENNAIO>
+    <FEBBRAIO>Febbraio</FEBBRAIO>
+    <MARZO>Marzo</MARZO>
+    <APRILE>Aprile</APRILE>
+    <MAGGIO>Maggio</MAGGIO>
+    <GIUGNO>Giugno</GIUGNO>
+    <LUGLIO>Luglio</LUGLIO>
+    <AGOSTO>Agosto</AGOSTO>
+    <SETTEMBRE>Settembre</SETTEMBRE>
+    <OTTOBRE>Ottobre</OTTOBRE>
+    <NOVEMBRE>Novembre</NOVEMBRE>
+    <DICEMBRE>Dicembre</DICEMBRE>
+    <LOGIN>Entra</LOGIN>
+     <BOTTONEREG>Registrati</BOTTONEREG>
+</linguaggio>
+

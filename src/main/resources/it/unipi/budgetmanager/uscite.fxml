@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #2c5ee0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tabellaSpese" layoutX="37.0" layoutY="121.0" maxWidth="408.0" prefHeight="339.0" prefWidth="408.0">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem fx:id="elimina" mnemonicParsing="false" onAction="#remove" text="Elimina" />
+              </items>
+            </ContextMenu>
+         </contextMenu></TableView>
+      <TextField fx:id="conteggio" editable="false" layoutX="449.0" layoutY="120.0" prefHeight="27.0" prefWidth="47.0" />
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="466.0" layoutY="1.0" onMouseClicked="#goToHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/homepage_icon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="383.0" layoutY="68.0" mnemonicParsing="false" onAction="#resetFilter" style="-fx-background-color: transparent; -fx-border-color: #ffffff;" text="Reset" textFill="WHITE" />
+      <Button fx:id="btnFiltro" layoutX="385.0" layoutY="32.0" mnemonicParsing="false" onAction="#filtra" style="-fx-background-color: transparent; -fx-border-color: #ffffff;" text="Filtra" textFill="WHITE" />
+      <Label fx:id="meseLabel" layoutX="277.0" layoutY="15.0" text="Mese" textFill="WHITE" />
+      <TextField fx:id="mese" layoutX="209.0" layoutY="32.0" />
+      <Label fx:id="annoLabel" layoutX="91.0" layoutY="16.0" text="Anno" textFill="WHITE" />
+      <TextField fx:id="anno" layoutX="25.0" layoutY="33.0" />
+   </children>
+</AnchorPane>

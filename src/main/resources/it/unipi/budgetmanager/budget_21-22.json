@@ -1,0 +1,169 @@
+{
+    "gara": [
+        {
+            "n_gara": "1212",
+            "data": "2021-10-02",
+            "campionato": "U17/E",
+            "luogo": "Spezia (SP)",
+            "rimborso": "43.44",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "1076",
+            "data": "2021-10-09",
+            "campionato": "U15/E",
+            "luogo": "Camaiore (LU)",
+            "rimborso": "29.6",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "251",
+            "data": "2021-10-10",
+            "campionato": "C2",
+            "luogo": "Carrara (MS)",
+            "rimborso": "47.57",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "1221",
+            "data": "2021-10-16",
+            "campionato": "U17/E",
+            "luogo": "Empoli (FI)",
+            "rimborso": "74.35",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "487",
+            "data": "2021-10-17",
+            "campionato": "B/F",
+            "luogo": "Firenze (FI)",
+            "rimborso": "47.45",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "268",
+            "data": "2021-10-23",
+            "campionato": "C2",
+            "luogo": "Pontedera (PI)",
+            "rimborso": "67.62",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "1228",
+            "data": "2021-10-24",
+            "campionato": "U17/E",
+            "luogo": "Pistoia (PT)",
+            "rimborso": "37",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "1793",
+            "data": "2021-10-29",
+            "campionato": "PM",
+            "luogo": "Massa (MS)",
+            "rimborso": "41.19",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "501",
+            "data": "2021-10-30",
+            "campionato": "B/F",
+            "luogo": "Livorno (LI)",
+            "rimborso": "49.75",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "2765",
+            "data": "2021-11-06",
+            "campionato": "U19S/M",
+            "luogo": "Carrara (MS)",
+            "rimborso": "43.16",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "286",
+            "data": "2021-11-07",
+            "campionato": "C2",
+            "luogo": "Firenze (FI)",
+            "rimborso": "99.21",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "1109",
+            "data": "2021-11-13",
+            "campionato": "U15/E",
+            "luogo": "Sarzana (SP)",
+            "rimborso": "89.53",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "289",
+            "data": "2021-11-14",
+            "campionato": "C2",
+            "luogo": "Empoli (FI)",
+            "rimborso": "79.35",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "2546",
+            "data": "2021-11-15",
+            "campionato": "U19G/M",
+            "luogo": "Spezia (SP)",
+            "rimborso": "34",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "517",
+            "data": "2021-11-20",
+            "campionato": "B/F",
+            "luogo": "Pontedera (PI)",
+            "rimborso": "55.62",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "4776",
+            "data": "2021-11-21",
+            "campionato": "1DM",
+            "luogo": "Prato (PO)",
+            "rimborso": "90.06",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "4383",
+            "data": "2021-11-21",
+            "campionato": "U13S/M",
+            "luogo": "Lucca (LU)",
+            "rimborso": "28.84",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "4547",
+            "data": "2021-11-22",
+            "campionato": "U14S/M",
+            "luogo": "Lucca (LU)",
+            "rimborso": "37.45",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "1268",
+            "data": "2021-11-27",
+            "campionato": "U17/E",
+            "luogo": "Empoli (FI)",
+            "rimborso": "74.35",
+            "username": "iacopo.massei"
+        },
+        {
+            "n_gara": "308",
+            "data": "2021-11-28",
+            "campionato": "C2",
+            "luogo": "Carrara (MS)",
+            "rimborso": "47.57",
+            "username": "iacopo.massei"
+        }
+    ],
+    "utente": {
+        "username": "iacopo.massei",
+        "password": "password"
+    }
+}
+

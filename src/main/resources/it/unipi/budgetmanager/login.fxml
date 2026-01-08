@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.budgetmanager.LoginController">
+    
+    <children>
+        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #2c5ee0;">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@img/logo_FIP.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="132.0" fitWidth="130.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@img/cash-flow.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </VBox>
+        <Button layoutX="425.0" layoutY="1.0" mnemonicParsing="false" onAction="#download" style="-fx-background-color: #2c5ee0;" text="Download" textFill="WHITE" />
+        <MenuButton fx:id="lingua" layoutX="201.0" layoutY="1.0" mnemonicParsing="false" style="-fx-background-color: #2c5ee0;" text="Lingua" textFill="WHITE">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#cambiaLingua" text="Inglese" />
+                <MenuItem mnemonicParsing="false" onAction="#cambiaLingua" text="Italiano" />
+            </items>
+        </MenuButton>
+        <VBox alignment="CENTER" layoutX="246.0" layoutY="108.0" prefHeight="285.0" prefWidth="218.0">
+            <children>
+                <Label text="BUDGET REF-MANAGER" textFill="#2c5ee0" underline="true">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label />
+                <TextField fx:id="username" alignment="CENTER" promptText="Username" />
+                <Label />
+                <PasswordField fx:id="password" alignment="CENTER" promptText="Password" />
+                <Label />
+                <Button fx:id="login" mnemonicParsing="false" onAction="#login" style="-fx-background-color: #2c5ee0;" text="Entra" textFill="WHITE" />
+                <Label />
+                <Button fx:id="signUp" mnemonicParsing="false" onAction="#registrazione" style="-fx-background-color: #2c5ee0;" text="Registrati" textFill="WHITE" />
+            <Label />
+            <Label fx:id="erroreLogin" textFill="#cd1010" underline="true" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="121.0" prefHeight="30.0" prefWidth="299.0" style="-fx-background-color: #2c5ee0;">
+         <children>
+            <VBox alignment="CENTER" prefHeight="30.0" prefWidth="257.0">
+               <children>
+                  <Label fx:id="id_user" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="249.0" text="Label" textAlignment="CENTER" textFill="WHITE" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutX="23.0" layoutY="60.0" prefHeight="372.0" prefWidth="182.0">
+         <children>
+            <Label fx:id="entrateText" alignment="CENTER" contentDisplay="CENTER" text="Entrate" textAlignment="CENTER" />
+            <HBox alignment="CENTER" prefHeight="26.0" prefWidth="136.0" style="-fx-border-color: #2c5ee0; -fx-border-radius: 10px 10px 10px 10px;">
+               <children>
+                  <Label fx:id="entrate" />
+               </children>
+            </HBox>
+            <Label />
+            <Label fx:id="inserisciGara" alignment="CENTER" contentDisplay="CENTER" text="Inserisci una nuova gara" textAlignment="CENTER" textFill="#2c5ee0" />
+            <Label />
+            <TextField fx:id="numeroGara" promptText="Numero gara" />
+            <Label />
+            <TextField fx:id="dataGara" promptText="Data (yyyy-MM-dd)" />
+            <Label />
+            <TextField fx:id="luogo" promptText="Comune (Provincia)" />
+            <Label />
+            <TextField fx:id="rimborso" promptText="Rimborso" />
+            <Label />
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="122.0">
+               <children>
+                  <Label fx:id="campionato" alignment="CENTER" prefHeight="27.0" prefWidth="109.0" style="-fx-background-color: #2c5ee0;" text="Campionato " textFill="WHITE" />
+                  <ChoiceBox fx:id="campionatoScelto" prefHeight="27.0" prefWidth="79.0">
+                     <HBox.margin>
+                        <Insets right="3.0" />
+                     </HBox.margin>
+                  </ChoiceBox>
+               </children>
+            </HBox>
+            <Label />
+            <Button fx:id="inviaGara" mnemonicParsing="false" onAction="#aggiungiGara" style="-fx-background-color: #2c5ee0;" text="Invia gara" textFill="WHITE" />
+            <Label />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="295.0" layoutY="53.0" prefHeight="282.0" prefWidth="182.0">
+         <children>
+            <Label fx:id="usciteText" alignment="CENTER" contentDisplay="CENTER" text="Uscite" textAlignment="CENTER" />
+            <HBox alignment="CENTER" prefHeight="26.0" prefWidth="136.0" style="-fx-border-color: #2c5ee0; -fx-border-radius: 10px 10px 10px 10px;">
+               <children>
+                  <Label fx:id="uscite" />
+               </children>
+            </HBox>
+            <Label />
+            <Label fx:id="inserisciSpesa" alignment="CENTER" contentDisplay="CENTER" text="Inserisci una nuova spesa" textAlignment="CENTER" textFill="#2c5ee0" />
+            <Label />
+            <TextField fx:id="spesaData" promptText="Data (yyyy-MM-dd)" />
+            <Label />
+            <TextField fx:id="spesaCausale" promptText="Causale" />
+            <Label />
+            <TextField fx:id="spesaCosto" promptText="Costo" />
+            <Label />
+            <Button fx:id="inviaSpesa" mnemonicParsing="false" onAction="#aggiungiSpesa" style="-fx-background-color: #2c5ee0;" text="Invia spesa" textFill="WHITE" />
+         </children>
+      </VBox>
+      <Label fx:id="budgetText" alignment="CENTER" contentDisplay="CENTER" layoutX="237.0" layoutY="406.0" text="Budget " textAlignment="CENTER" />
+      <HBox alignment="CENTER" layoutX="190.0" layoutY="423.0" prefHeight="26.0" prefWidth="136.0" style="-fx-border-color: #2c5ee0; -fx-border-radius: 10px 10px 10px 10px;">
+         <children>
+            <Label fx:id="budget" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" />
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutX="201.0" layoutY="32.0" prefHeight="29.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="meseCorrente" alignment="CENTER" contentDisplay="CENTER" text="Label" textAlignment="CENTER" textFill="#2c5ee0" underline="true" />
+         </children>
+      </VBox>
+      <HBox prefHeight="30.0" prefWidth="209.0" style="-fx-background-color: #2c5ee0;">
+         <children>
+            <MenuButton fx:id="menu" alignment="CENTER" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Naviga" textAlignment="CENTER" textFill="WHITE">
+               <items>
+                  <MenuItem fx:id="entrateMenu" mnemonicParsing="false" onAction="#goToEntrate" text="Entrate" />
+                  <MenuItem fx:id="usciteMenu" mnemonicParsing="false" onAction="#goToUscite" text="Uscite" />
+               </items>
+            </MenuButton>
+            <MenuButton fx:id="scegliMese" mnemonicParsing="false" style="-fx-background-color: transparent;" textFill="WHITE">
+               <items>
+                  <MenuItem fx:id="gennaio" mnemonicParsing="false" onAction="#cambiaMese" text="Gennaio" />
+                  <MenuItem fx:id="febbraio" mnemonicParsing="false" onAction="#cambiaMese" text="Febbraio" />
+                  <MenuItem fx:id="marzo" mnemonicParsing="false" onAction="#cambiaMese" text="Marzo" />
+                  <MenuItem fx:id="aprile" mnemonicParsing="false" onAction="#cambiaMese" text="Aprile" />
+                  <MenuItem fx:id="maggio" mnemonicParsing="false" onAction="#cambiaMese" text="Maggio" />
+                  <MenuItem fx:id="giugno" mnemonicParsing="false" onAction="#cambiaMese" text="Giugno" />
+                  <MenuItem fx:id="luglio" mnemonicParsing="false" onAction="#cambiaMese" text="Luglio" />
+                  <MenuItem fx:id="agosto" mnemonicParsing="false" onAction="#cambiaMese" text="Agosto" />
+                  <MenuItem fx:id="settembre" mnemonicParsing="false" onAction="#cambiaMese" text="Settembre" />
+                  <MenuItem fx:id="ottobre" mnemonicParsing="false" onAction="#cambiaMese" text="Ottobre" />
+                  <MenuItem fx:id="novembre" mnemonicParsing="false" onAction="#cambiaMese" text="Novembre" />
+                  <MenuItem fx:id="dicembre" mnemonicParsing="false" onAction="#cambiaMese" text="Dicembre" />
+               </items>
+            </MenuButton>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_RIGHT" layoutX="415.0" prefHeight="30.0" prefWidth="86.0" style="-fx-background-color: #2c5ee0;">
+         <children>
+            <ImageView fx:id="home" fitHeight="30.0" fitWidth="30.0" onMouseClicked="#goToHome" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/homepage_icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="backLogin" fitHeight="30.0" fitWidth="30.0" onMouseClicked="#goToLogin" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/logout_icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

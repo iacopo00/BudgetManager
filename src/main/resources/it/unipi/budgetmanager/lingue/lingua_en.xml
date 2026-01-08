@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<linguaggio>
+    <MENUNAVIGA>View</MENUNAVIGA>
+    <MENUENTRATE>Income</MENUENTRATE>
+    <MENUUSCITE>Expenditure</MENUUSCITE>
+    <ENTRATE>Income</ENTRATE>
+    <USCITE>Expenditure</USCITE>
+    <BOTTONEINVIAG>Send game</BOTTONEINVIAG>
+    <BOTTONEINVIAS>Send cost</BOTTONEINVIAS>
+    <LABELENTRATE>Enter new game</LABELENTRATE>
+    <LABELUSCITE>Enter new expenditure</LABELUSCITE>
+    <NGARA>Game number</NGARA>
+    <DATA>Date</DATA>
+    <CAMPIONATO>Select championship</CAMPIONATO>
+    <LUOGO>City</LUOGO>
+    <RIMBORSO>Reimbursement</RIMBORSO>
+    <CAUSALE>Causal</CAUSALE>
+    <MESE>Month</MESE>
+    <COSTO>Cost</COSTO>
+    <LINGUA>Language</LINGUA>
+    <GENNAIO>January</GENNAIO>
+    <FEBBRAIO>February</FEBBRAIO>
+    <MARZO>March</MARZO>
+    <APRILE>April</APRILE>
+    <MAGGIO>May</MAGGIO>
+    <GIUGNO>June</GIUGNO>
+    <LUGLIO>July</LUGLIO>
+    <AGOSTO>August</AGOSTO>
+    <SETTEMBRE>September</SETTEMBRE>
+    <OTTOBRE>October</OTTOBRE>
+    <NOVEMBRE>November</NOVEMBRE>
+    <DICEMBRE>December</DICEMBRE>
+    <ANNO>Year</ANNO>
+    <BOTTONEFILTRA>Filter</BOTTONEFILTRA>
+    <BOTTONEREG>Sign Up </BOTTONEREG>
+    <REGLABEL>SIGN UP NOW </REGLABEL>
+    <LOGIN>Login</LOGIN>
+    <ELIMINA>Delete</ELIMINA>
+</linguaggio>
+
